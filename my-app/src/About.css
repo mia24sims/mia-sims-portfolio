@@ -1,4 +1,6 @@
-
+.About{
+  background-color: #351203;
+}
 
 
 .About h2 {
@@ -10,7 +12,7 @@
 }
 
 .About .dev {
-  background-color: #3e261c;
+  background-color: #622107;
   border-radius: 20%;
   padding: 15px;
   margin-right: 25px;
@@ -19,12 +21,17 @@
   box-shadow: 2px 5px 2px #502222;
 }
 
+.About .dev h4{
+    text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
+    1px 2px 0 #7b4b38;
+}
+
 .About .dev li {
   list-style: none;
 }
 
 .About .edu {
-  background-color: #3e261c;
+  background-color: #622107;
   border-radius: 20%;
   padding: 15px;
   margin-bottom: 20px;
@@ -37,10 +44,16 @@
   list-style: none;
 }
 
+.About .edu h4{
+    text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
+    1px 2px 0 #7b4b38;
+}
+
 
 .About hr{
      border: 8px ridge #3d2d10 ;
   border-bottom: none;
+  margin-bottom: -3px;
   }
 
 @media (min-width: 770px)

@@ -37,4 +37,5 @@ font-weight: 500;
 .Homepage hr{
   border: 8px ridge #3d2d10 ;
   border-bottom: none;
+  margin-bottom: -3px;
 }
