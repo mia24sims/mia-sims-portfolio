@@ -1,0 +1,40 @@
+
+
+.Homepage h1{
+  font-size: 80px;
+  margin-top: 7%;
+opacity: 100%;
+text-align: center;
+font-weight: bolder;
+ text-shadow:
+    -1px -1px 0 #684030,
+    1px -2px 0 #684030,
+    -3px 1px 0 #684030,
+    1px 2px 0 #684030;
+}
+
+.Homepage h3{
+    font-size: 30px;
+  margin-top: 1.5%;
+opacity: 93%;
+text-align: center;
+ text-shadow:
+    -1px -1px 0 #684030,
+    1px -2px 0 #684030,
+    -1px 1px 0 #684030,
+    1px 2px 0 #684030;
+
+}
+
+.Homepage .bio{
+   font-size: 15px;
+  margin-top: 1.5%;
+opacity: 97%;
+text-align: center;
+font-weight: 500;
+}
+
+.Homepage hr{
+  border: 8px ridge #3d2d10 ;
+  border-bottom: none;
+}
