@@ -1,0 +1,36 @@
+.Contact h4{
+margin-top: 50px;
+border: 2px solid white;
+background-color: #502222;
+border-radius: 20%;
+padding: 15px;
+}
+
+.Contact ul{
+  border-radius: 10%;
+  border-top: 2px solid #5022229e ;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+list-style: none;
+  box-shadow: 2px 5px 2px 2px #5022229e;
+}
+
+.Contact button{
+  margin-top: 15px;
+}
+
+@media (min-width: 770px)
+{
+  .Contact h4 {
+  
+  }
+  .Contact .col{
+width: 45%;
+  }
+
+
+
+  
+
+}

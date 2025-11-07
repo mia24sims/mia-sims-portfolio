@@ -1,6 +1,9 @@
 import "./App.css";
 import Homepage from "./Homepage";
 import About from "./About";
+import Contact from "./Contact";
+
+
 
 function App() {
   return (
@@ -8,6 +11,7 @@ function App() {
       <header className="App-header">
     < Homepage />
 <About />
+<Contact />
       </header>
     </div>
   );
