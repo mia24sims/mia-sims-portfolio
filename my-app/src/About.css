@@ -6,42 +6,46 @@
 .About h2 {
   text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
     1px 2px 0 #684030;
-  margin-bottom: 30px;
+    padding: 15px;
+  margin-bottom: 15px;
   font-size: 35px;
   text-align: center;
 }
 
+
 .About .dev {
   background-color: #622107;
-  border-radius: 20%;
+  border-radius: 30%;
   padding: 15px;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  border: 2px ridge #f0ecea;
-  box-shadow: 2px 5px 2px #502222;
+  margin-bottom: 30px;
+  box-shadow: 2px 4px 6px #502222cd;
 }
 
 .About .dev h4{
     text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
     1px 2px 0 #7b4b38;
+    text-align: center;
 }
 
 .About .dev li {
   list-style: none;
+    margin-left: -30px;
+
 }
 
 .About .edu {
   background-color: #622107;
-  border-radius: 20%;
+  border-radius: 30%;
   padding: 15px;
-  margin-bottom: 20px;
-
-  border: 2px ridge #f0ecea;
-  box-shadow: 2px 5px 2px #502222;
+  margin-right: -0px;
+  margin-bottom: 30px;
+  box-shadow: 2px 4px 6px #502222cd;
 }
 
 .About .edu li {
   list-style: none;
+  text-align: center;
+  margin-left: -30px;
 }
 
 .About .edu h4{
@@ -50,13 +54,16 @@
 }
 
 
+
+
+
 .About hr{
      border: 8px ridge #3d2d10 ;
   border-bottom: none;
   margin-bottom: -3px;
   }
 
-@media (min-width: 770px)
+@media (min-width: 700px)
 {
   .About h2 {
     text-align: left;
@@ -64,13 +71,19 @@
   }
   .About .dev{
 width: 45%;
-margin-left: 40px;
+border-radius: 3%;
+  margin-right: 45px;
+margin-left: 15px;
   }
 
   .About .edu {
     width: 45%;
+    border-radius: 3%;
+
   }
 
-  
+  .About .row{
+  grid-gap: 8px;
+}
 
 }

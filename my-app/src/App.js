@@ -2,7 +2,7 @@ import "./App.css";
 import Homepage from "./Homepage";
 import About from "./About";
 import Contact from "./Contact";
-
+import Work from "./Work";
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     < Homepage />
 <About />
 <Contact />
+<Work />
       </header>
     </div>
   );

@@ -14,7 +14,7 @@ font-weight: bolder;
 }
 
 .Homepage h3{
-    font-size: 30px;
+    font-size: 33px;
   margin-top: 1.5%;
 opacity: 93%;
 text-align: center;
@@ -38,4 +38,10 @@ font-weight: 500;
   border: 8px ridge #3d2d10 ;
   border-bottom: none;
   margin-bottom: -3px;
+}
+
+@media (min-width: 700px){
+  .Homepage .bio{
+    font-size: 20px;
+  }
 }

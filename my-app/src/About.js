@@ -32,7 +32,6 @@ export default function About() {
             <ul>
               <li>shecodes workshop </li>
               <li>code-cademy</li>
-              <li>resume link*</li>
               <li>degree*</li>
             </ul>
           </div>
