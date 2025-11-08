@@ -1,0 +1,36 @@
+.Work{
+  background-color: #351203;
+}
+
+.Work h2{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+  text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
+    1px 2px 0 #7b4b38;
+    font-size: 35px;
+}
+
+.Work hr{
+     border: 5px groove #A5864A ;
+  border-bottom: none;
+  margin-bottom: 15px;
+  }
+
+  .Work .row{
+    grid-gap: 20px;
+  }
+
+  .Work .project{
+ background-color: #A5864A;
+  border-radius: 3%;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 2px 5px 6px #612a2ae9;
+  }
+
+  @media (min-width: 700px) {
+    .Work h2{
+      font-size: 50px;
+    }
+  }

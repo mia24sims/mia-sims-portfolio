@@ -1,0 +1,54 @@
+.Contact h4 {
+  margin-top: 50px;
+  box-shadow: 2px 5px 2px 2px #5022229e;
+  border-top: 2px solid #5022229e;
+  border-radius: 3%;
+  padding: 10px;
+  max-width: 50%;
+  text-align: center;
+  text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
+    1px 2px 0 #684030;
+}
+
+.Contact ul {
+  border-radius: 3%;
+  border-top: 2px solid #5022229e;
+  background-color: #622107;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  list-style: none;
+  box-shadow: 2px 5px 2px 2px #5022229e;
+}
+
+.Contact button {
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 27px;
+  font-weight: 600;
+  background-color: #351203;
+  border: 1px solid #351203;
+  box-shadow: 2px 4px 2px 2px #5022229e;
+}
+
+.Contact button:hover{
+  cursor: pointer;
+  color: #351203;
+  background-color: white;
+  font-weight: 800;
+  border: 1px solid white;
+}
+
+.Contact svg{
+  margin-right: 35px;
+}
+.Contact  .bi-envelope-at{
+  margin-left: 35px;
+}
+
+@media (min-width: 770px) {
+  .Contact .col {
+    width: 45%;
+  }
+}
