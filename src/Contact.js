@@ -3,7 +3,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-6">
@@ -12,7 +12,7 @@ export default function Contact() {
               <li>
                 <strong>Open-sourced projects</strong>
               </li>
-              <button class="btn btn-primary">View</button>
+              <button class="btn btn-dark">View</button>
             </ul>
           </div>
           <div class="col"></div>

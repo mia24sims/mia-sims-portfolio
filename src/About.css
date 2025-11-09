@@ -1,13 +1,14 @@
 .About{
   background-color: #351203;
+  padding-bottom: 50px;
 }
 
 
 .About h2 {
   text-shadow: -1px -1px 0 #684030, 1px -2px 0 #684030, -1px 1px 0 #684030,
     1px 2px 0 #684030;
-    padding: 15px;
-  margin-bottom: 15px;
+    padding-top: 70px;
+  margin-bottom: 55px;
   font-size: 35px;
   text-align: center;
 }
@@ -17,7 +18,7 @@
   background-color: #622107;
   border-radius: 30%;
   padding: 15px;
-  margin-bottom: 30px;
+  margin:  30px 0px;
   box-shadow: 2px 4px 6px #502222cd;
 }
 
@@ -37,8 +38,7 @@
   background-color: #622107;
   border-radius: 30%;
   padding: 15px;
-  margin-right: -0px;
-  margin-bottom: 30px;
+  margin: 30px 0px;
   box-shadow: 2px 4px 6px #502222cd;
 }
 
@@ -54,19 +54,15 @@
 }
 
 
-
-
-
 .About hr{
      border: 8px ridge #3d2d10 ;
   border-bottom: none;
-  margin-bottom: -3px;
+  
   }
 
 @media (min-width: 700px)
 {
   .About h2 {
-    text-align: left;
     font-size: 50px;
   }
   .About .dev{

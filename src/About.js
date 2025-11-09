@@ -3,9 +3,9 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="About" id="About">
+    <div className="About" id="about">
       <h2>A little about me..</h2>
-
+<hr/>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-2 dev">

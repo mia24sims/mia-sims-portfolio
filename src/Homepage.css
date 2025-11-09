@@ -1,4 +1,7 @@
-
+.Homepage .link{
+  color: white;
+  text-decoration: none;
+}
 
 .Homepage h1{
   font-size: 80px;
@@ -32,6 +35,7 @@ text-align: center;
 opacity: 97%;
 text-align: center;
 font-weight: 500;
+padding-bottom: 90px;
 }
 
 .Homepage hr{
