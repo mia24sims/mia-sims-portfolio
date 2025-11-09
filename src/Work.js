@@ -1,5 +1,7 @@
 import React from "react";
 import "./Work.css";
+import Dictionary from "./Dictionary-app.png"
+import Weather from "./Weather-app.png"
 
 export default function Work() {
   return (
@@ -9,23 +11,39 @@ export default function Work() {
       <div class="container text-center">
         <div class="row">
           <div class="col project">
-            <a href="0" target="_blank">
+            <a
+              href="https://dictionary-app-shecodes-bymia.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Dictionary} alt="Dictionary-app-pic" />
+            </a>
+          </div>
+          <div class="col project">
+            <a
+              href="https://ai-life-poem-generator.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               📜
             </a>
           </div>
           <div class="col project">
-            <a href="0" target="_blank">
+            <a
+              href="https://shecodes-responsive-week2-tamia.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               📜
             </a>
           </div>
           <div class="col project">
-            <a href="0" target="_blank">
-              📜
-            </a>
-          </div>
-          <div class="col project">
-            <a href="0" target="_blank">
-              📜
+            <a
+              href="https://weathersearchshecodes.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Weather} alt="weather-app-pic" />
             </a>
           </div>
         </div>
