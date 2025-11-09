@@ -26,8 +26,8 @@ export default function Contact() {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   fill="currentColor"
                   class="bi bi-envelope-at"
                   viewBox="0 0 16 16"
@@ -38,8 +38,8 @@ export default function Contact() {
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
@@ -49,8 +49,8 @@ export default function Contact() {
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   fill="currentColor"
                   class="bi bi-card-list"
                   viewBox="0 0 16 16"
