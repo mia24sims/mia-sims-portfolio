@@ -1,5 +1,5 @@
 .Contact {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .Contact h4 {
@@ -49,6 +49,11 @@
 }
 .Contact  .bi-envelope-at{
   margin-left: 35px;
+}
+
+.Contact a{
+  text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 770px) {

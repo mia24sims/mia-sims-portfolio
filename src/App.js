@@ -3,7 +3,6 @@ import Homepage from "./Homepage";
 import About from "./About";
 import Contact from "./Contact";
 import Work from "./Work";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -12,14 +11,7 @@ function App() {
       <header className="App-header">
         
         
-        <Router>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/work" element={<Work />} />
-          </Routes>
-        </Router>
+        <Homepage />
 
         <About />
         <Contact />

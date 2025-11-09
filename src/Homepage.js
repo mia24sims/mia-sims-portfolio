@@ -39,13 +39,13 @@ export default function Homepage() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#work">
-                  work
+              <a class="nav-link" href="#contact">
+                  contact
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  contact
+                  <a class="nav-link" href="#work">
+                  work
                 </a>
               </li>
               <li class="nav-item">
