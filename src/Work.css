@@ -16,7 +16,7 @@
 .Work hr {
   border: 5px groove #a5864a;
   border-bottom: none;
-  margin-bottom: 35px;
+  margin-bottom: 65px;
 }
 
 .Work .row {
@@ -24,26 +24,41 @@
 }
 
 .Work .project {
-  background-color: #a5864a;
-  border-radius: 3%;
-  padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 2px 5px 6px #612a2ae9;
+
 }
 
-.Work a{
+.Work a {
   color: white;
   text-decoration: none;
 }
 
-.Work img{
-  width: 150px;
+.Work img {
+  width: 400px;
+  height: 200px;
+  opacity: 70%;
+  border-radius: 3%;
+  margin-bottom: 20px;
+  border: 4px solid #a5864a;
+box-shadow: 4px 7px 8px #5b2c2c;
 }
 
-
+.Work img:hover{
+  opacity: 100%;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
 
 @media (min-width: 700px) {
   .Work h2 {
     font-size: 50px;
+  }
+
+
+}
+@media (max-width: 400px) {
+  .Work img{
+  width: 360px;
+    height:230px
   }
 }
