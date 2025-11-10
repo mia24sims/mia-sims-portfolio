@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import Dictionary from "./Dictionary-App.png";
+import Dictionary from "./Dictionary-app.png";
 import Poem from "./Ai-poem-generator.png";
 import Travel from "./Travel-info-rio.png";
 
