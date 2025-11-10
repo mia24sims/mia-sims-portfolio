@@ -21,7 +21,11 @@ export default function Work() {
             </a>
             <div>
               {" "}
-              <a href="0" target="_blank">
+              <a
+                href="https://github.com/mia24sims/life-poems-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -46,7 +50,11 @@ export default function Work() {
             </a>
             <div>
               {" "}
-              <a href="0" target="_blank">
+              <a
+                href="https://github.com/mia24sims/responsive-week-2-project"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -75,7 +83,11 @@ export default function Work() {
             </a>
             <div>
               {" "}
-              <a href="0" target="_blank">
+              <a
+                href="https://github.com/mia24sims/dictionary-app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -91,7 +103,6 @@ export default function Work() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

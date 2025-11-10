@@ -12,7 +12,9 @@ export default function Contact() {
               <li>
                 <strong>Open-sourced projects</strong>
               </li>
-              <button class="btn btn-dark">View</button>
+              <button class="btn btn-dark">
+                <a href="#work" >View</a>
+                </button>
             </ul>
           </div>
           <div class="col"></div>
@@ -38,7 +40,8 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/tamia-sims/" rel="noreferrer"
+                  href="https://www.linkedin.com/in/tamia-sims/"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <svg
